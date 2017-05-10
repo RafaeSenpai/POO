@@ -1,0 +1,38 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Parque()
+comment1.params=n\ l
+comment1.target=Parque(java.lang.String,\ java.util.Map)
+comment10.params=
+comment10.target=int\ quantidadeMinutos()
+comment10.text=com\ iterador\ interno
+comment11.params=m
+comment11.target=boolean\ existe(java.lang.String)
+comment11.text=\n\ \ \ \ public\ int\ quantidadeMinutosv2(){\n\ \ \ \ \ \ \ \ int\ min\=0;\n\ \ \ \ \ \ \ \ Iterator<Map.Entry<String,\ Lugar>>\ it;\n\ \ \ \ }\n
+comment12.params=
+comment12.target=java.lang.String\ toString()
+comment13.params=
+comment13.target=java.util.Set\ lugaresOrdenadosPorTempo()
+comment13.text=\n\ \ \ \ public\ Map<String,\ Lugar>\ copiaLugares(){\n\ \ \ \ \ \ \ \ return\ this.lugares.getLugares();\n\ \ \ \ }\n
+comment14.params=
+comment14.target=Lugar\ menorTempo()
+comment2.params=p
+comment2.target=Parque(Parque)
+comment3.params=
+comment3.target=java.lang.String\ getNome()
+comment3.text=gets\ e\ setters
+comment4.params=
+comment4.target=java.util.Map\ getLugares()
+comment4.text=GetLugar\ com\ for\ each
+comment5.params=n
+comment5.target=void\ setNome(java.lang.String)
+comment5.text=\ getLugares\ com\ Iterator\ \n\ \ \ \ public\ Map<String,Lugar>\ getLugares(){\n\ \ \ \ \ \ \ \ Map<String,\ Lugar>\ nl\ \=\ new\ TreeMap<>();\n\ \ \ \ \ \ \ \ Iterator<Map.Entry<String,\ Lugar>>\ it;\n\ \ \ \ \ \ \ \ it\ \=\ this.lugares.entrySet().iterator();\n\ \ \ \ \ \ \ \ while(it.hasNext()){\n\ \ \ \ \ \ \ \ \ \ \ \ Map.Entry<String,\ Lugar>\ l\ \=\ it.next();\n\ \ \ \ \ \ \ \ \ \ \ \ nl.put(l.getKey(),\ l.getValue().clone());\n\ \ \ \ \ \ \ \ }\n\ \ \ \ \ \ \ \ return\ nl;\n\ \ \ \ }\n
+comment6.params=
+comment6.target=java.util.Set\ matriculas()
+comment7.params=l
+comment7.target=void\ novoLugar(Lugar)
+comment8.params=m
+comment8.target=void\ removeLugar(java.lang.String)
+comment9.params=m\ mins
+comment9.target=void\ alteraTempo(java.lang.String,\ int)
+numComments=15

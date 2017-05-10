@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=HotelPremium
+comment0.text=\n\ Considere\ agora\ que\ aos\ tipos\ de\ hot\u00E9is\ j\u00E1\ especicados\ se\ acrescentam\n\ os\ hot\u00E9is\ Premium\ ,\ nos\ quais\ existe\ uma\ taxa\ de\ luxo\ (vari\u00E1vel\ de\ hotel\n\ para\ hotel),\ que\ acresce\ ao\ valor\ do\ quarto.\n\n\ @author\ Rafael\ ALves\n\ @version\ 10-05-2017\n
+comment1.params=codigo\ nome\ localidade\ precoBQuarto\ numQuartos\ estrelas\ epocaAlta\ taxaLuxo
+comment1.target=HotelPremium(java.lang.String,\ java.lang.String,\ java.lang.String,\ double,\ int,\ int,\ boolean,\ double)
+comment1.text=Construtor\ parametrizado
+comment2.params=hp
+comment2.target=HotelPremium(HotelPremium)
+comment2.text=Construtor\ por\ copia
+comment3.params=
+comment3.target=HotelPremium()
+comment4.params=
+comment4.target=double\ getTaxaLuxo()
+comment5.params=x
+comment5.target=void\ setTaxaLuxo(double)
+comment6.params=
+comment6.target=HotelPremium\ clone()
+comment7.params=o
+comment7.target=boolean\ equals(java.lang.Object)
+comment8.params=
+comment8.target=java.lang.String\ toString()
+comment9.params=
+comment9.target=double\ getPrecoNoite()
+numComments=10

@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Stand()
+comment1.params=x
+comment1.target=void\ addVeiculo(Veiculo)
+comment2.params=
+comment2.target=java.lang.String\ imprimeListaV()
+comment3.params=x
+comment3.target=Veiculo\ getCarro(int)
+comment4.params=x\ p
+comment4.target=void\ insereVeiculo(int,\ Veiculo)
+comment5.params=x\ y
+comment5.target=void\ insereVeiculo2(Veiculo,\ Veiculo)
+comment6.params=
+comment6.target=int\ veiculosEmStock()
+comment7.params=x
+comment7.target=void\ removeVeiculo(Veiculo)
+comment8.params=
+comment8.target=void\ limpaLista()
+numComments=9

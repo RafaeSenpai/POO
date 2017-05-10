@@ -1,0 +1,30 @@
+#BlueJ class context
+comment0.target=HoteisInc
+comment0.text=\n\ Um\ Hotel\ \u00E9\ a\ entidade\ base\ da\ aplica\u00E7\u00E3o,\ que\ cont\u00E9m\ um\ codigo\ de\ identi-\n\ ca\u00E7\u00E3o,\ um\ nome\ ,\ uma\ localidade\ ,\ uma\ categoria\ (normalmente\ expressa\n\ em\ estrelas),\ um\ n\u00FAmero\ de\ quartos\ dispon\u00EDveis\ e\ um\ pre\u00E7o\ por\ quarto.\n\ Actualmente\ a\ cadeia\ de\ hot\u00E9is\ faz\ equipamentos\ homog\u00E9neos\ a\ n\u00EDvel\ de\ quarto,\n\ pelo\ que\ todos\ os\ quartos\ de\ um\ hotel\ s\u00E3o\ do\ mesmo\ tipo\ (previsivelmente\ esta\n\ situa\u00E7\u00E3o\ mudar\u00E1\ num\ futuro\ pr\u00F3ximo).\n\ \n\ @author\ Rafael\ Alves\ \n\ @version\ 05-05-2017\n
+comment1.params=cod
+comment1.target=boolean\ existeHotel(java.lang.String)
+comment1.text=\n\ Verifica\ a\ existencia\ de\ um\ hotel,\ dado\ o\ seu\ codigo\n
+comment2.params=
+comment2.target=int\ quantos()
+comment2.text=\n\ Devolve\ a\ quantidade\ de\ hoteis\ existentes\ na\ cadeia\n
+comment3.params=loc
+comment3.target=int\ qantos(java.lang.String)
+comment3.text=\n\ Devolver\ o\ numero\ total\ de\ hoteis\ de\ uma\ dada\ localidade\n
+comment4.params=tipo
+comment4.target=int\ quantoT(java.lang.String)
+comment5.params=cod
+comment5.target=Hotel\ getHotel(java.lang.String)
+comment5.text=\n\ Devolver\ a\ ficha\ de\ um\ hotel,\ dado\ o\ seu\ codigo\n
+comment6.params=h
+comment6.target=void\ adiciona(Hotel)
+comment6.text=\n\ Adiciona\ a\ informa\u00E7\u00E3o\ de\ um\ novo\ hotel\n
+comment7.params=
+comment7.target=java.util.List\ getHoteis()
+comment7.text=\n\ Devolver\ uma\ lista\ contendo\ a\ copia\ de\ todos\ os\ hoteis\ \n
+comment8.params=hs
+comment8.target=void\ adiciona(java.util.Set)
+comment8.text=\n\ Adicionar\ a\ informa\u00E7\u00E3o\ de\ um\ conjunto\ de\ hoteis\n
+comment9.params=epoca
+comment9.target=void\ mudaPara(boolean)
+comment9.text=\n\ Alterar\ os\ estado\ da\ epoca\ de\ todos\ os\ hoteis\n\ NOTA\:\ no\ enunciado\ o\ parametro\ passado\ ao\ metodo\ e\ de\ uma\ string,\ \n\ \ \ \ \ \ \ mas\ como\ inicialmente\ foi\ definido\ como\ sendo\ bool,\ fez-se\ \n\ \ \ \ \ \ \ essa\ altera\u00E7ao\ aqui\ no\ tipo\ do\ parametro\ a\ passar\ ao\ metodo\n
+numComments=10

@@ -1,0 +1,5 @@
+NA CLASSE HOTEL:
+    - É indicado neste classe que falta fazer o metodo que calcula o preço noite no hotel e que este depende da sua categoria(nº de estrelas);
+    - É dito que é importante alterar o metodo hashcode usado nesta classe! ---NÃO SEI COMO SE FAZ NEM COMO DEVO ABORDAR O PROBLEMA;
+    - Não intendo para quê nem porquê que existe o metodo compareTo denro da classe Hotel;
+

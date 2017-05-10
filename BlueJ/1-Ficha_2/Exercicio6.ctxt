@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=java.lang.String[]\ lerParaArray()
+comment1.params=array\ x
+comment1.target=java.lang.String[]\ remove(java.lang.String[],\ java.lang.String)
+comment2.params=array\ x\ y
+comment2.target=java.lang.String[]\ substitui(java.lang.String[],\ java.lang.String,\ java.lang.String)
+numComments=3

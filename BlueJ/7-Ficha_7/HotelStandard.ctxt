@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=HotelStandard
+comment0.text=\n\ Crie\ agora\ uma\ nova\ classe\ de\ hot\u00E9is,\ o\ HotelStandard\ em\ que\ o\ pre\u00E7o\ dos\ quartos\ \u00E9\ ainda\ igual\ em\ todo\ o\ hotel,\ mas\ varia\ com\ a\ \u00E9poca\ (que\n\ pode\ ser\ alta\ ou\ baixa),\ sendo\ que\ na\ \u00E9poca\ alta\ acrescem\ 20\ euros\ ao\ pre\u00E7o.\ Refa\u00E7a\ a\ classe\ HoteisInc\ para\ que\ possa\ passar\ a\ gerir\ al\u00E9m\ dos\n\ hot\u00E9is\ normais\ este\ novo\ tipo\ de\ equipamentos\n\ \n\ @author\ Rafael\ Alves\n\ @version\ 06-05-2017\n
+comment1.params=
+comment1.target=HotelStandard()
+comment1.text=Construtor\ vazio
+comment2.params=h
+comment2.target=HotelStandard(HotelStandard)
+comment2.text=Construtor\ por\ copia
+comment3.params=codigo\ nome\ localidade\ precoBaseQuarto\ numQuartos\ estrelas\ epoca
+comment3.target=HotelStandard(java.lang.String,\ java.lang.String,\ java.lang.String,\ double,\ int,\ int,\ boolean)
+comment3.text=Construtor\ parametrizado
+comment4.params=
+comment4.target=HotelStandard\ clone()
+comment4.text=\n\ Como\ explicado\ na\ classe\ Hotel,\ aqui\ est\u00E1\ o\ "verdadeiro\ clone",\n\ pois\ esta\ classe,\ HoteilStandard,\ n\u00E3o\ \u00E9\ asbtrata,\ logo\ \u00E9\ colonavel\ \n\ e\ sendo\ colonavel\ deve-se\ declarar\ o\ clone\ conforme\ est\u00E1\ a\ baixo\n
+comment5.params=
+comment5.target=double\ getPrecoNoite()
+comment6.params=obj
+comment6.target=boolean\ equals(java.lang.Object)
+numComments=7
